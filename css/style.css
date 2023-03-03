@@ -58,7 +58,7 @@ body,html{
     width: 100%;
     min-height: 100vh;
     background-size: cover;
-    background-image: url('/img/background-g91a6b85a5_1920.jpg');
+    background-image: url('img/background-g91a6b85a5_1920.jpg');
     display:flex;
     justify-content: center;
     align-items: center;
