@@ -14,6 +14,10 @@ body,html{
     background-color: #CCD7E1;
 }
 
+main,h1,p,a{
+    text-align: center;
+}
+
 .navbar{
     position: fixed;
     overflow: hidden;
@@ -454,6 +458,15 @@ footer{
 }
 
 @media screen and (max-width:768px){
+    .navbar{
+        justify-content: space-evenly;
+    }
+    .navmenu{
+        padding: auto;
+    }
+    .nav-link{
+        font-size: 0.8em;
+    }
     .containeraps{
         text-align: center;
         padding: 2%;
@@ -478,6 +491,15 @@ footer{
     .titulolgn{
         text-align: center;
         font-size: 2em;
+    }
+    .tituloProjects{
+        font-size: 1.5em;
+    }
+    .titulo{
+        font-size: 1em;
+    }
+    .form{
+        min-width: 300px;
     }
     .rodape p{
         font-size: 10px;
