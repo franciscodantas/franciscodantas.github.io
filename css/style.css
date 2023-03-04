@@ -516,12 +516,13 @@ footer{
     }
 }
 
-@media screen and (max-width:388px){
+@media screen and (max-width:420px){
     .navbar{
         justify-content: center;
         align-items: center;
     }
     .navmenu{
+        flex-wrap: wrap;
         gap: 5px;
         padding: 2px;
     }
