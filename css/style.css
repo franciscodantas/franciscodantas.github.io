@@ -462,9 +462,11 @@ footer{
 
 @media screen and (max-width:768px){
     .navbar{
-        justify-content: space-evenly;
+        justify-content: center;
+        align-items: center;
     }
     .navmenu{
+        gap: 5px;
         padding: auto;
     }
     .nav-link{
