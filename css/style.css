@@ -511,7 +511,22 @@ footer{
         margin-top: 5px;
     }
     .listaLingua ul li img{
-        width: 150px;
-        height: 150px;
+        width: 190px;
+        height: 190px;
+    }
+}
+
+@media screen and (max-width:388px){
+    .navbar{
+        justify-content: center;
+        align-items: center;
+    }
+    .navmenu{
+        gap: 5px;
+        padding: 2px;
+    }
+    .nav-link{
+        text-align: center;
+        font-size: 0.5em;
     }
 }
