@@ -489,6 +489,9 @@ footer{
     .btn button{
         margin-top: 10px;
     }
+    .text{
+        text-align: center;
+    }
     .conteudo{
         justify-content: center;
         flex-wrap: wrap;
