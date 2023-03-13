@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -103,23 +103,27 @@
                     </div>
                 </div>
                 <div class="form">
-                    <form action="" method="post">
-                        <p class="nome-form">
+                    <form action="https://formsubmit.co/franciscocontatopro@gmail.com" method="POST">
+                        <p>
                             <label for="nome">Nome:</label><br>
-                            <input type="text" id="nomeid" placeholder="Ex: Fulano Silva" required name="nome" />
+                            <input type="text" name="name" required placeholder="Fulano Silva">
                         </p>
-                        <p class="fone">
+                        <p>
                             <label for="fone">Phone:</label><br>
-                            <input type="phone" id="foneid" placeholder="(xx)xxxxx-xxxx" name="fone">
+                            <input type="phone"  placeholder="(xx)xxxxx-xxxx" name="fone">
                         </p>
                         <p>
                             <label for="email">Email:</label><br>
-                            <input type="email" name="email" id="emailid" placeholder="fulano@mail.com" required />
+                            <input type="email" name="email" required placeholder="fulano@email.com">
                         </p>
                         <p>
-                            <textarea placeholder="mensagem" required="required"></textarea>
+                            <textarea name="message" placeholder="mensagem" required></textarea>
                         </p>
-                        <button type="submit" form="meu_form">Enviar</button>
+                        <input type="hidden" name="_subject" value="Novo envio!">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/envio.html">
+                        <input type="hidden" name="_template" value="box">
+                        <button type="submit">Enviar</button>
                     </form>
                 </div>
             </section>

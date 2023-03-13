@@ -460,6 +460,36 @@ footer{
     text-decoration: none;
 }
 
+.envio{
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #000000;
+}
+
+.titulo-envio{
+    width: 100%;
+    padding: 2%;
+    background-color:#1D0847;
+    color: #CCD7E1;
+    text-align: center;
+    border-radius: 20px; 
+}
+.sub-envio{
+    width: 100%;
+    padding: 5%;
+    background-color:#1D0847;
+    color: #CCD7E1;
+    text-align: center;
+    border-radius: 20px 
+}
+
 @media screen and (max-width:768px){
     .navbar{
         justify-content: center;
