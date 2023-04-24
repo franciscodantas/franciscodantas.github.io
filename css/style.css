@@ -225,7 +225,7 @@ main,h1,p,a{
     background-color: rebeccapurple;
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 50px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
