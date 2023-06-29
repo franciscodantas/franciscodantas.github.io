@@ -57,7 +57,7 @@ const typed = new Typed('.multiple-text', {
 const button = document.getElementById('btn');
 const theme = document.getElementById('iconTheme');
 
-button.addEventListener('click', () => {
+button.onclick = () => {
     if (theme.classList.contains('bx-sun')) {
         theme.classList.remove('bx-sun');
         theme.classList.add('bxs-sun');
@@ -73,5 +73,5 @@ button.addEventListener('click', () => {
         document.documentElement.style.setProperty('--text-color', '#fff');
         document.documentElement.style.setProperty('--main-color', '#0ef');
     }
-});
+};
 
